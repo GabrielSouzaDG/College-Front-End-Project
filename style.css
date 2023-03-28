@@ -22,36 +22,30 @@
 }
 .col-1{
     flex: 1;
-}
-.col-2{
-    flex-basis: 250px;
-    background: #49605d;
+    
 }
 .mensagens{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     margin: 40px;
+    flex-direction: column;
 }
 .texto{
     background: rgba(255, 255, 255, 0.1);
     padding: 20px 40px;
-    border-radius: 8px;
+    border-radius: 3.5px;
     flex-basis: 70%;
     font-weight: 300;
-}
-.texto h2{
-    font-weight: 400;
-    font-size: 22px;
-    margin-bottom: 10px;
+
 }
 .perfil{
     width: 50px;
     border-radius: 50%;
     margin: 0 20px;
+    position: right;
+    float: left;
 }
-.mensagens2{
-    justify-content: flex-end;
-}
+
 .col-1 input{
     border: 0;
     outline: none;
@@ -62,36 +56,25 @@
     font-size: 16px;
     font-weight: 300;
 }
-::placeholder{
+
+.texto button{
+	border: 1;
+    outline: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+	cursor: pointer;
+	transition: all 0.4s;
+  }
+
+  ::placeholder{
     color: #ffff;
 }
-.col-2 h3{
-    text-align: center;
-    margin-top: 40px;
-    font-weight: 400;
-}
-.col-2 ul{
-    list-style: none;
-    padding: 30px;
-}
-.col-2 ul li{
-    padding: 5px 0;
-}
-.col-2 ul li::before{
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: red;
-    display: inline-block;
-    margin-right: 10px;
-}
-.col-2 ul li.respondido::before{
-    background-color: greenyellow;
-}
-.col-2 ul li.nRespondido::before{
-    background-color: tomato;
-}
-.col-2 ul li.emProgresso::before{
-    background-color: lemonchiffon;
+.classeMensagemItem{
+    border:1px solid white;
+    padding: 9px;
+    border-radius: 6px;
+    background-color:gray;
+    align-items: center;
+    align-self:flex-start;
 }
