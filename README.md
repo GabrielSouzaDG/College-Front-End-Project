@@ -2,4 +2,3 @@
 College projects <br></br>
 Here I'll post my projects during my college front-end discipline.
 <br></br>
-https://okaboo.github.io/College-Front-End-Project/
