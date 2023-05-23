@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: linen;
+  }
+  
+  .lista-de-compras {
+    width: 600px;
+    max-height: 400px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 7.5px;
+    background-color: lavenderblush;
+    overflow-y: auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 2.5px;
+  }
+  
+  .input-container button {
+    padding: 2px 5px;
+    margin-left: 10px;
+    border-radius: 2.5px;
+    background-color: lavender;
+    border: 1px solid #000;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  li button {
+    margin-left: 10px;
+    border-radius: 2.5px;
+    background-color: lavender;
+    border: 1px solid #000;
+  }
+  
+  li button:hover {
+    background-color: lightyellow;
+    animation-delay: 0.4s;
+  }
+  
+  .input-container button:hover {
+    background-color: lightskyblue;
+    animation-delay: 0.4s;
+  }
+  
+  .botao-remover-todos button {
+    margin-left: 10px;
+    border-radius: 2.5px;
+    background-color: lavender;
+    border: 1px solid #000;
+  }
+  
+  .botao-remover-todos button:hover {
+    background-color: lightcoral;
+    animation-delay: 0.4s;
+  }
